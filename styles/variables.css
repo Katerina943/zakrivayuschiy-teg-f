@@ -1,1 +1,28 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  --font-main: 'Inter-Variable', sans-serif;
+  --font-accent: 'PressStart2P', monospace;
+  --font-weight-text: 400;
+  --font-weight-accent: 700;
+  --bg: url("/images/background.jpg");
+  --bg-header: #fff;
+  --bg-card: #fff;
+  --text-color: #000;
+  --text-accent-color: #fff;
+  --border-color: #000;
+  --shadow-color: #fff;
+  --bg-accent: #000;
+  --heart-color: red;
+  --black: #000;
+  --white: #fff;
+  --fill-hover: #000;
+  --contour: #000;
+  --bg-button: #fff;
+  --bg-button-accent: #000;
+  --background: rgb(0, 0, 0, 0.7);
+  --stroke: #fff;
+
+
+
+}
