@@ -21,7 +21,7 @@
 }
 
 .page__background {
-  background-image: var(--bg);
+  background-image: var(--background-gradient), var(--bg);
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -209,17 +209,17 @@
   margin-block-end: 103px;
   font-family: var(--font-accent), monospace;
   font-size: 14px;
-  line-height: 12.6px;
+  line-height: 12px;
   background-color: var(--bg-accent, #fff) ;
   position: relative;
   overflow: hidden;
 }
 
 .floppy {
-  width: 21px;
-  height: 21px;
+  width: 20px;
+  height: 20px;
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
 
 .dialog {
@@ -232,10 +232,11 @@
 }
 
 .dialog__floppy__insert {
-  width: 39px;
-  height: 39px;
+  width: 40px;
+  height: 40px;
   position: relative;
-  z-index: 2;
+  z-index: 1;
+  flex-shrink: 0;
 }
 
 .dialog[open] {
