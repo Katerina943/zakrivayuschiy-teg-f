@@ -405,9 +405,8 @@ dialog::backdrop {
     flex-direction: row;
     align-items: center;
     gap: 20px;
-    inline-size: 341px;
-    block-size: 195px;
   }
+  
 /*
   .dialog {
     block-size: 191px;
