@@ -223,6 +223,7 @@
   height: 20px;
   position: relative;
   z-index: 1;
+  fill: transparent;
 }
 
 .dialog {
@@ -252,7 +253,7 @@
   gap: 30px;
   padding-block: 30px;
   padding-inline: clamp(30px, 2.8891rem + -1.1268vw, 42px);
-  max-inline-size: clamp(341px, 21.0484rem + 1.1268vw, 353px);
+  max-inline-size: 353px;
   border: 2px solid var(--border-color, #000);
   box-sizing: content-box;
 }
@@ -260,7 +261,7 @@
 .dialog[open] .button__save {
   margin-inline: 0;
   margin-block: 0;
-  inline-size: clamp(257px, 15.2702rem + 3.3803vw, 293px);
+  inline-size: 100%;
   block-size: 38px;
 }
 
@@ -406,7 +407,7 @@ dialog::backdrop {
     align-items: center;
     gap: 20px;
   }
-  
+
 /*
   .dialog {
     block-size: 191px;
@@ -422,7 +423,6 @@ dialog::backdrop {
   dialog[open] {
     padding: 30px 42px;
   }
-
 
 
 }
